@@ -66,9 +66,9 @@ class _FoodDetailsPageState extends State<FoodDetailsPage> {
               ),*/
 
               FoodTitleWidget(
-                  productName: "Grilled Salmon",
-                  productPrice: "\$96.00",
-                  productHost: "pizza hut"),
+                  productName: "Dark Chocolate Almond (Protein Bar)",
+                  productPrice: "RS 200.00",
+                  productHost: "WHEY TO GO"),
               SizedBox(
                 height: 15,
               ),
@@ -324,7 +324,7 @@ class DetailContentMenu extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       child: Text(
-        'Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero\'s De Finibus Bonorum et Malorum for use in a type specimen book.',
+        "Plant Proteins, Dates, Cocoa, Almonds, Dark Chocolate...& that's it",
         style: TextStyle(
             fontSize: 14.0,
             color: Colors.black87,

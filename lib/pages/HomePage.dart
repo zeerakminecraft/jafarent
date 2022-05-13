@@ -25,7 +25,7 @@ class _HomePageState extends State<HomePage> {
               fontSize: 16,
               fontWeight: FontWeight.w500),
         ),
-        brightness: Brightness.light,
+        // brightness: Brightness.light,
         actions: <Widget>[
           IconButton(
               icon: Icon(
